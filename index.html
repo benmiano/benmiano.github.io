@@ -20,166 +20,176 @@
 
 <body>
   <!-- Navbar -->
-  <nav>
-    <h1>BENSON MIANO</h1>
-    <ul class="navigation">
-      <li>mianomuchangi@gmail.com</li>
-      <!-- <li><a href="#about" class="nav-link">About</a></li> -->
-      <li><a href="#skills" class="nav-link">Skills</a></li>
-      <li><a href="#projects" class="nav-link">Projects</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-    </ul>
-    <button class="burger-menu" id="burger-menu">
-      <ion-icon class="bars" name="menu-outline"></ion-icon>
-    </button>
-  </nav>
+  <div class="container">
+    <nav>
+      <h4>BENSON MIANO</h4>
+      <div class="email"><ion-icon name="mail-sharp"></ion-icon>
+        <p>mianomuchangi@gmail.com</p></span>
+      </div>
+      <img src="assets/images/ben.jpg" alt="ben-miano" loading="lazy" class="profile-image" />
+      <div class="socials-icons">
+        <div>
+          <a href = "https://www.linkedin.com/in/benson-miano-69206b1b4/"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+        </div>
+        <div>
+          <a href="https://github.com/benmiano"><ion-icon name="logo-github" size="large"></ion-icon></a>
+        </div>
+      </div>
 
-  <!-- Hero Section -->
-  <section class="hero" id="about">
-    <img src="assets/images/codi.jpg" alt="ben-miano" loading="lazy" class="hero-img" />
-    <div class="bio animate__animated animate__shakeX">
-      <h2 class="bio-title">About Me</h2>
-      <p class="bio-text">
-        I am a Solution-driven Full-Stack Web Developer adept at contributing to highly collaborative work
-        environment as well as working individually on projects. Experience in developing web applications
-        and solutions. Built products meeting highest standards for web solutions, error handling, security
-        practices and following best practices. incorporating multiple APIs, third-party integrations and
-        databases. I have participated in :
-      <ul class="experience">
-        <li>Conceptualizing, creating and managing dynamic web pages for data display and entry using
-          React.js</li>
-        <li>Building APIs following RESTful standards allowing users to submit information to be stored
-          in SQL and NoSQL databases.</li>
-        <li> Testing of API endpoints to ensure they meet their functional requirements.
+      <ul class="navigation">
+        <li><ion-icon name="home" size="large"></ion-icon><a href="#about" class="nav-link">HOME</a></li>
+        <li><ion-icon name="code-slash" size="large"></ion-icon><a href="#skills" class="nav-link">SKILLS</a></li>
+        <li><ion-icon name="folder-outline" size="large"></ion-icon><a href="#projects" class="nav-link">PROJECTS</a>
         </li>
-        <li>Developing backend APIs using Nodejs and Django.</li>
+        <li><ion-icon name="send" size="large"></ion-icon><a href="#contact" class="nav-link">CONTACT</a></li>
       </ul>
-      </p>
-    </div>
-  </section>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
 
-  <!-- More about -->
-  <!-- <section class="more-about">
-    <h2>More About Me</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-      nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-      autem deleniti cupiditate molestias quis unde quae totam porro dicta
-      iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-      nostrum dolor minus, libero delectus praesentium perferendis
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-      consequuntur labore? Ea totam voluptas amet!
-    </p>
-  </section> -->
+    <div class="mainbody">
+      <!-- Hero Section -->
+      <section class="hero" id="about">
+        <div class="bio">
+          <h2 class="bio-title">ABOUT </h2>
+          <p class="bio-text">
+            Self-driven Full-Stack Web Developer adept at contributing to highly collaborative work
+            environment as well as working individually on projects. Experienced in developing web solutions using
+            different technologies.
+            Built products meeting required standards and specifications. Knowledgeable in multiple technologies and
+            languages. Work experience includes :
+          <ul class="experience">
+            <li>Conceptualizing, creating and managing dynamic web pages for data display and entry using
+              React.js</li>
+            <li>Database design and development, for both SQL and NoSQL-based technologies</li>
+            <li>Developing and testing backend APIs using Nodejs and Django.</li>
+            <li>Open Authorization</li>
+            <li>Third-party integrations</li>
+          </ul>
+          </p>
+        </div>
+      </section>
 
-  <!-- Skills section -->
-  <section class="skills" id="skills">
-    <h2 class="skill-header">My Top Skills</h2>
+      <!-- Skills section -->
+      <section class="skills" id="skills">
+        <h2 class="skill-header">SKILLS</h2>
 
-    <div class="skills-row">
-      <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/typescript.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/node.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/react.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/next.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/vue.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/python.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/django.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/sql.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/docker.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <!-- <img src="assets/icons/php1.png" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/laravel" alt="" loading="lazy" class="icon icon-card" /> -->
-      <img src="assets/icons/java.png" alt="" loading="lazy" class="skill icon icon-card" />
-      <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="skill icon icon-card" />
-    </div>
-  </section>
+        <div class="skills-row">
+          <p class="icon-card">JAVASCRIPT</p>
+          <p class="icon-card">TYPESCRIPT</p>
+          <p class="icon-card">HTML</p>
+          <p class="icon-card">CSS</p>
+          <p class="icon-card">REACT</p>
+          <p class="icon-card">VUE</p>
+          <p class="icon-card">NODEJS</p>
+          <p class="icon-card">PYTHON</p>
+          <p class="icon-card">DJANGO</p>
+          <p class="icon-card">SQL</p>
+          <p class="icon-card">MONGO</p>
+          <p class="icon-card">GO</p>
+          <p class="icon-card">JAVA</p>
+          <p class="icon-card">GIT</p>
+          <p class="icon-card">DOCKER</p>
+          <p class="icon-card">AWS</p>
+        </div>
+      </section>
 
-  <!-- Projects section -->
-  <section class="projects" id="projects">
-    <h2 class="projects-title">Some of my Recent Projects</h2>
-    <div class="projects-container">
-      <div class="project-container project-card">
-        <img src="assets/images/p1.png" alt="expense-tracker" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Ecommerce site</h3>
-        <p class="project-details">
-          An online platform for selling of literature, specifically religious literature
-        </p>
-        <a href="https://destinycapsules.co.ke/" target="_blank" class="project-link">Check it Out</a>
-      </div>
-      <div class="project-container project-card">
-        <img src="assets/images/todo.gif" alt="shopping app" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Task manager</h3>
-        <p class="project-details">
-          A React-Django-based application to create and manage your tasks
-        </p>
-        <a href="#" target="_blank" class="project-link">Check it Out</a>
-      </div>
-      <div class="project-container project-card">
-        <img src="assets/images/shoppingcart.png" alt="task manager" loading="lazy" class="project-pic" />
-        <h3 class="project-title">SOKO</h3>
-        <p class="project-details">
-          A web platform for facilitating online purchases. Built with Reactjs, Express and MongoDB
-        </p>
-        <a href="#" target="_blank" class="project-link">Check it Out</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact section -->
-  <section class="contact" id="contact">
-    <h2>Get In Touch With Me</h2>
-    <div class="contact-form-container">
-      <div class="contact-form">
-        <form action="https://formspree.io/f/xknljbkr" method="POST">
-          <div class="form-control">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
-              required />
+      <!-- Projects section -->
+      <section class="projects" id="projects">
+        <h2 class="projects-title">PROJECTS</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img src="assets/images/shoppingcart.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+            <h3 class="project-title">Ecommerce site</h3>
+            <p class="project-details">
+              An online platform for selling of literature.
+              User Interface built with Reactjs.
+              Backend API built with Express.ts.
+              Database is MongoDB
+            </p>
+            <a href="https://github.com/benmiano/soko_project/tree/backend" target="_blank" class="project-link">Check it Out</a>
           </div>
-          <div class="form-control">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
-              required />
+          <div class="project-container project-card">
+            <img src="assets/images/todo.gif" alt="task manager" loading="lazy" class="project-pic" />
+            <h3 class="project-title">Task manager</h3>
+            <p class="project-details">
+              An application to create and manage your tasks. User Interface built with Reactjs. 
+              Backend API built using Django Framework. 
+              Database is SQL
+            </p>
+            <a href="https://github.com/benmiano/taskmanager/" target="_blank" class="project-link">Check it Out</a>
           </div>
-          <div class="form-control">
-            <label for="message">Message</label>
-            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
-              class="input-field" required></textarea>
+          <div class="project-container project-card">
+            <img src="assets/images/shoppingcart.png" alt="chat app" loading="lazy" class="project-pic" />
+            <h3 class="project-title">CHAT APP</h3>
+            <p class="project-details">
+              An application depicting the use of Web Sockets in communication. UI built with React.js. 
+              Backend in Express.js . Database is MongoDB
+            </p>
+            <a href="https://github.com/benmiano/chatapp" target="_blank" class="project-link">Check it Out</a>
           </div>
-          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
-        </form>
-      </div>
-    </div>
-  </section>
 
-  <!-- Social accounts - Fixed to the right -->
-  <div class="socials">
-    <a href="https://www.linkedin.com/in/benson-miano-69206b1b4/" target="_blank"><img
-        src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
-    <a href="https://github.com/benmiano" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
-        class="socicon" /></a>
+          <div class="project-container project-card">
+            <img src="assets/images/shoppingcart.png" alt="Django SSO" loading="lazy" class="project-pic" />
+            <h3 class="project-title">CHAT APP</h3>
+            <p class="project-details">
+             Use of the Django framework in implementing Open Authorization, specifically Google, Facebook and Github.
+            </p>
+            <a href="https://github.com/benmiano/djangoAuth" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xknljbkr" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+                  required />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+                  required />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                  class="input-field" required></textarea>
+              </div>
+              <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Social accounts - Fixed to the right -->
+      <!-- <div class="socials">
+        <a href="https://www.linkedin.com/in/benson-miano-69206b1b4/" target="_blank"><img
+            src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+        <a href="https://github.com/benmiano" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+            class="socicon" /></a>
+      </div> -->
+      <!-- Footer section -->
+      <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">BEN MIANO</p>
+        <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+            alt="scroll-up" /></i>
+      </footer>
+    </div>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </div>
-  <!-- Footer section -->
-  <footer>
-    <p class="copy">&copy; Copyright 2023</p>
-    <p class="copy">BEN MIANO</p>
-    <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
-        alt="scroll-up" /></i>
-  </footer>
-
-  <!-- Website scripts -->
-  <script src="assets/js/app.js"></script>
-
-  <!-- Ion icons scripts -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
